@@ -1,0 +1,113 @@
+
+    /* CSS Reset */
+    body{
+        font-family: 'Bebas Neue', cursive;
+        color:white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/betterbg.jpg')
+    }
+
+    .left{
+        position: absolute;
+        left:10px;
+        top:20px;
+        display: inline-block;
+        /* border: 2px solid red; */
+    }
+
+    .left img{
+        filter: invert(100);
+        width:84px;
+    }
+
+    .left div{
+        text-align: center;
+        line-height: 26px;
+        font-size: 21px;
+    }
+
+    .mid{
+        display:block;
+        width:41%;
+        margin:20px auto;
+        /* border: 2px solid red; */
+    }
+
+    .right{
+        position: absolute;
+        right:10px;
+        top:32px;
+        display: inline-block;
+        /* border: 2px solid red; */
+    }
+
+    .navbar{
+        display:inline-block;
+    }
+
+    .navbar li{
+        display:inline-block;
+        font-size: 28px;
+    }
+
+    .navbar li a{
+        color:white;
+        text-decoration: none;
+        padding:34px 20px;
+    }
+
+    .navbar li a:hover, .navbar li a.active{
+        color:grey;
+        text-decoration:underline;
+    }
+
+    .navbar li a.active{
+        color:white;
+        text-decoration:underline;
+    }
+
+    .btn{
+        font-family: 'Bebas Neue', cursive;
+        margin: 0px 9px;
+        padding: 3px 10px;
+        color: white;
+        background-color: black;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .btn:hover{
+        background-color: grey;
+    }
+
+    .container{
+        border: 2px solid white;
+        margin: 75px 54px;
+        padding: 75px 15px;
+        width: 41%;
+        border-radius: 10px;
+    }
+
+    .form-group input{
+        font-family: 'Bebas Neue', cursive;
+        text-align: center;
+        display: block;
+        width: 400px;
+        border:2px solid black;
+        margin:3px auto;
+        font-size: 25px;
+        border-radius: 10px;
+    }
+
+    .container h1{
+        text-align: center;
+    }
+
+    .container button{
+        display: block;
+        width: 400px;
+        margin: 10px auto;
+    }
